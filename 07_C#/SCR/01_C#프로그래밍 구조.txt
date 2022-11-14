@@ -1,0 +1,24 @@
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+        PrintHello(Hello World);
+        AA var = new AA();
+        var.PrintHello(Hello World too);
+    }
+
+    static void PrintHello(string str)
+    {
+        Console.WriteLine(str);
+    }
+}
+
+class AA
+{
+    public void PrintHello(string str)
+    {
+        Console.WriteLine(str);
+    }
+}

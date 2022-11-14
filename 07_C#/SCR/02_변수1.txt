@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace 예제3
+{
+    internal class Program
+    {
+        static int a = 3;
+        static void Main(string[] args)
+        {
+            int a;
+            a = 1;
+
+            char c = 'A';
+            string str = "abcd";
+            bool con = true;
+            Console.WriteLine("a = " + a);
+            Console.WriteLine("c = " + c);
+            Console.WriteLine("str = " + str);
+            Console.WriteLine("con = " + con);
+
+        }
+
+        static private void Func1()
+        {
+            Console.WriteLine("a = "+a);
+        }
+
+    }
+}
